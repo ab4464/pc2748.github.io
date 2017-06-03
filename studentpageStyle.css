@@ -1,5 +1,5 @@
 a:link{
-text-decoration:none;
+  text-decoration:none;
 }
 
 a:hover{
@@ -17,8 +17,7 @@ ul#menu li {
   
 }
 
-h1  {
-    
+h1  { 
     opacity: .7;
     font-family: Garamond;
     font-size: 65px;  
@@ -35,8 +34,7 @@ h1  {
 
 img {
   border-radius: 10px;
-  padding: 20px;
-  
+  padding: 20px;  
 }
 
 .main {
@@ -45,8 +43,7 @@ img {
         opacity: .8;
         border-radius: 10px;  
         padding: 10px;  
-        margin-bottom: 15px;
-        
+        margin-bottom: 15px;     
 }
 
 .quiz {
