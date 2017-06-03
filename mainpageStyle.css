@@ -1,0 +1,60 @@
+
+a:link{
+text-decoration:none;
+}
+
+a:hover{
+  color:purple;
+}
+
+ul#menu li {
+  display: inline;
+  background-color:lightgrey;
+  border-radius: 10px;
+  text-decoration:none;
+  color:black;  
+  opacity: .7;
+  padding: 15px;
+  
+}
+
+h1  {
+    
+    opacity: .7;
+    font-family: Garamond;
+    font-size: 65px;  
+    }
+    
+.intro {
+        background-color: black;
+        color: white;
+        opacity: .8;
+        border-radius: 10px;  
+        padding: 10px;
+        margin-bottom: 15px;
+}
+
+img {
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+
+.main {
+        background-color: black;
+        color: white;
+        opacity: .8;
+        border-radius: 10px;  
+        padding: 10px;  
+        margin-bottom: 15px;
+        
+}
+
+.quiz {
+        background-color: black;
+        color: purple;
+        font-style: 30px;
+        opacity: .8;
+        border-radius: 10px;  
+        padding: 10px;   
+}
