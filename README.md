@@ -1,2 +1,2 @@
 # simplelesson
-An instructional website that teachers people how to speak Italian.
+An instructional website that teaches people how to speak Italian.
