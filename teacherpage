@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel ="stylesheet" href ="style.css">
+</head>
+
+<!--Background -->
+<body background = "https://c1.staticflickr.com/8/7036/6782747930_a2c41df627_b.jpg" >
+
+<!--Title-->
+<h1>Condello</h1>
+
+<p style = 
+"font-size: 30px; color: darkgrey; opacity: .7; margin-bottom: 100px"> 
+School of Italian</p>
+
+<!--Menu-->
+<ul id = "menu" style = "margin-bottom: 25px">
+<li><a href="#">Teacher</a></li>
+<li><a href="https://run.plnkr.co/plunks/5v2D2XyUFFAq1tK8jpxB/">Student</a></li>
+</ul>
+
+
+
+<!--Intro and Bootstrap-->
+<div class = "container-fluid">
+
+<div class = "col-xs-12">
+<div class = "intro">
+
+<p >Welcome to the Condello School of Italian.  As a teacher, you will lead the students across the student page of this website while sharing your screen with the students on Zoom.  Please welcome each student by name and encourage each of the students to class and invite each of them to try the exercises on the student page.  Below, you will find advice for teaching each lesson to the students.  Lessons 1 – 3 will be covered during the first class.  Please make sure that all of the students participate and are made to feel like an important part of the class.  Show the students that you enjoy working with them and that you are eager to explore Italian with them online. </p><img src = "https://c1.staticflickr.com/5/4111/5022966500_f20d33baf8_b.jpg" class ="img-responsive" >
+</div>
+</div>
+
+
+<!--Maine Section-->
+<div class ="container">
+<div class= "row">
+<div class ="col-xs-12">
+<div class = "main">
+<p>
+The first lesson on the student page invites the students to learn about greetings.  Practice the greetings with each student before asking the students to practice with each other. After each student has practiced the words in the greetings lesson, introduce new greeting related words to the students.  Practice these words with each of the learners.  Help the students pronounce the words correctly and authentically.  Since people can be shy about practicing a foreign language, be encouraging and friendly.
+<br><br>
+The second lesson involves verbs.  This lesson is more complex than the greetings lesson.  Be patient with the students as you walk them through the information on the student page.  Help the students to understand when a verb form should be used in a sentence.  Practice each verb form with the group.  In addition to teaching the students the conjugation for the Italian word for “eat,” also teach them the conjugations for the Italian words for “chew” and “drink.”
+<br><br>
+The third lesson is about combing verbs and direct objects.  Guide the students through the information on the student page while adding additional examples along the way.  Help the students understand the relationships between nouns and verbs in Italian through practice conversations with each student.  At the end of the lesson, ask each student to try constructing a sentence on their own without any assistance.  Also, give the students an overview of the lesson material for the following week.
+
+</p>
+<p1>Before class, please watch the teacher in the following video discuss Italian greetings.  This video can give you ideas for teaching your lessons.</p1>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2VHbFhXvmqM" frameborder="0" allowfullscreen></iframe>
+</div>
+<div>
+<br>
+
+<!--Quizzes-->
+<!--Add quiz 1-->
+<div class ="container">
+<div class= "row">
+<div class ="col-xs-12">
+<div class = "quiz">
+<h>Please practice using the quiz system before teaching the students.</h>
+<br><br>
+<h>Quiz One</h>
+<form action = "/submit-answers">
+<lable><input type = "text" placeholder = "Your name"></lable>
+<br>
+<p> Aristotle was instructed by whom? </p>
+<lable><input type = "radio" name = "Xenophon">Xenophon</lable>
+<lable><input type = "radio" name = "Plato">Plato</lable>
+<lable><input type = "radio" name = "Cyrus">Cyrus</lable>
+<br><br>
+<button type = "submit"> Submit</button>
+</form>
+</div>
+
+<!--Add quiz 2-->
+<div class = "quiz">
+<h>Quiz Two</h>
+<br>
+<form action = "/submit-answers">
+<lable><input type = "text" placeholder = "Your name"></lable>
+<br>
+<p> Aristotle was instructed by whom? </p>
+<lable><input type = "radio" name = "Xenophon">Xenophon</lable>
+<lable><input type = "radio" name = "Plato">Plato</lable>
+<lable><input type = "radio" name = "Cyrus">Cyrus</lable>
+<br><br>
+<button type = "submit"> Submit</button>
+</form>
+</div>
+
+<!--Add quiz 3-->
+<div class = "quiz">
+<br>
+<h>Quiz Three</h>
+<br>
+<form action = "/submit-answers">
+<lable><input type = "text" placeholder = "Your name" style ="color"></lable>
+<br>
+<p> Aristotle was instructed by whom? </p>
+<lable><input type = "radio" name = "Xenophon">Xenophon</lable>
+<lable><input type = "radio" name = "Plato">Plato</lable>
+<lable><input type = "radio" name = "Cyrus">Cyrus</lable>
+<br><br>
+<button type = "submit"> Submit</button>
+</form>
+</div>
+</body>
+</html>
