@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel ="stylesheet" href ="style.css">
+</head>
+
+<!--Background -->
+
+  <body background="http://maxpixel.freegreatpicture.com/static/photo/1x/Venezia-Italy-Venice-Carnival-Venetian-Mask-Mask-1984724.jpg">
+    <!--Title-->
+    <h1>Condello</h1>
+    <p style="font-size: 30px; color: darkgrey; opacity: .7; margin-bottom: 100px"> 
+School of Italian</p>
+    <!--Menu-->
+    <ul id="menu" style="margin-bottom: 25px">
+      <li>
+        <a href="https://run.plnkr.co/plunks/RK2IEvWWtXoCPLuuBqG8/">Teacher</a>
+      </li>
+      <li>
+        <a href="">Student</a>
+      </li>
+    </ul>
+    <!--Intro and Bootstrap-->
+    <div class="container-fluid">
+      <div class="col-xs-6">
+        <div class="intro">
+          <p> The Condello School of Italian is an online learning experience for people interested in learning the Italian language.  This website contains video and written instruction that is accompanied by quizzes that allow students to test and apply what they have learned.  This online school is for complete beginners.  This website is free for anyone to use, and it has no membership fees.  </p>
+          <img src="https://www.goodfreephotos.com/albums/italy/venice/canals-of-venice-at-dusk.jpg" class="img-responsive" />
+        </div>
+      </div>
+      <!--Second Part of Intro-->
+      <div class="col-xs-6">
+        <div class="intro">
+          <p>A volunteer teacher will work with students who would like to engage in a live lesson through video conferencing.  During the video conference, the teacher will walk students through the lessons and the quizzes on the website while reinforcing learning with extra examples and live practice conversations.  The online class will meet on Zoom, which will be free for the students to use.  Class will meet in the evenings from 6:00pm EST to 7:00pm EST each Monday.  Most class sizes are estimated to be about eight students.  Students who are interested should call 1-###-###-####. </p>
+        </div>
+      </div>
+      <!--Maine Section-->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="main">
+              <p>
+  Lesson I: Greetings
+
+Many people have heard the Italian word for “goodbye,” which is ciao.  What many non-Italian speakers do not know if that “ciao” can mean both “goodbye” and “hello.” You can both greet and wish farewell to someone using the same word, “ciao. ” To ask a friend how he or she is doing, you would say the following: “Come stai?” However, if you are addressing more than one friend, you would say, “Come state?”  The reason the verb changes will be addressed in lesson two.  You can now say greet, say goodbye, and ask someone how they are doing in Italian.
+                <br />
+                <br />
+
+Lesson II: Verbs
+In Italian, verbs take on many different forms.  There are not only one or two forms of the word for “eat” in the present tense, which is true in English.  For example, if you want to say that you are eating, you would say “mangio,” which means both “I” and “eat” (I eat).  You would not need to use a subject pronoun.  Here are the forms of the Italian word for eat:
+              </p>
+              <ul>
+                <li>Mangio: I eat</li>
+                <li>Mangi: You eat</li>
+                <li>Mangia: He, She, It eats</li>
+                <li>Mangiamo: We eat</li>
+                <li>Mangiate: You all eat</li>
+                <li>Mangiano: They eat. </li>
+              </ul>
+              <br />
+
+Lesson III:  Verbs and Nouns
+How would you say, “I eat pizza” in Italian?  In Italian, the noun serving as the direct object normally follows the verb, as it does in English.  Word order becomes more difficult for English speakers to understand when adjectives are taken into account, but adjectives will be introduced in another lesson.  The Italian word for pizza is the same in both English and Italian, so you would say, “Mangio pizza.”  Do you know how to say, “they eat pizza” in Italian?
+
+  
+              <p></p>
+            </div>
+            <br />
+            <!--Quizzes-->
+            <!--Add quiz 1-->
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="quiz">
+                    <h>Quiz for Lesson I</h>
+                    <form action="/submit-answers">
+                      <lable>
+                        <input type="text" placeholder="Your name" />
+                      </lable>
+                      <br />
+                      <p> How do you say "goodbye" in Italian? </p>
+                      <lable>
+                        <input type="radio" name="ac1" />
+Pronto</lable>
+                      <lable>
+                        <input type="radio" name="ac2" />
+Ciao</lable>
+                      <lable>
+                        <input type="radio" name="ac3" />
+Come stai?</lable>
+                      <br />
+                      <br />
+                      <button type="submit"> Submit</button>
+                    </form>
+                  </div>
+                  <!--Add quiz 2-->
+                  <div class="quiz">
+                    <h>Quiz for Lesson II</h>
+                    <br />
+                    <form action="/submit-answers">
+                      <lable>
+                        <input type="text" placeholder="Your name" />
+                      </lable>
+                      <br />
+                      <p> How do you say "We eat" </p>
+                      <lable>
+                        <input type="radio" name="ac1" />
+Mangio</lable>
+                      <lable>
+                        <input type="radio" name="ac2" />
+Mangi</lable>
+                      <lable>
+                        <input type="radio" name="ac3" />
+Mangiamo</lable>
+                      <br />
+                      <br />
+                      <button type="submit"> Submit</button>
+                    </form>
+                  </div>
+                  <!--Add quiz 3-->
+                  <div class="quiz">
+                    <h>Quiz for Lesson III</h>
+                    <br />
+                    <form action="/submit-answers">
+                      <lable>
+                        <input type="text" placeholder="Your name" style="color" />
+                      </lable>
+                      <br />
+                      <p> How do you say "We eat pizza." </p>
+                      <lable>
+                        <input type="radio" name="ac1" />
+Mangio pizza</lable>
+                      <lable>
+                        <input type="radio" name="ac2" />
+Mangia pizza</lable>
+                      <lable>
+                        <input type="radio" name="ac3" />
+Mangiamo pizza</lable>
+                      <br />
+                      <br />
+                      <button type="submit"> Submit</button>
+                    </form>
+                  </div>
+                  <!--Add footer.-->
+                  <p id="container5" style="color: lightgrey; font-size: 20px"> © 2017 Paul Condello</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
+
