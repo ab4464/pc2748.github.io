@@ -13,7 +13,7 @@ response = "Ciao, come stai?: Hello, how are you?";
 
 if (italianConversation == "Bene") {
 
-response = "Ottimo.  Anch'io: Excellent, I am doing well too.";
+response = "Ottimo!  Anch'io: Excellent, I am doing well too.";
 }
 
 
