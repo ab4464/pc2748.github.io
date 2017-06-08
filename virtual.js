@@ -3,7 +3,7 @@ var italianConversation = document.getElementById("speakItalian").value; var res
 
 if (italianConversation == "Ciao") {
 
-response = "Ciao, come stai?: Hello, how are you?";
+response = "Ciao, come stai?";
 }
 
 if (italianConversation == "ciao") {
@@ -19,7 +19,7 @@ response = "Ottimo! Anch'io. Arrivederci.";
 
 if (italianConversation == "bene") {
 
-response = "Ottimo.  Anch'io: Excellent, I am too.";
+response = "Ottimo.  Anch'io. Arrivederci.";
 }
 
 document.getElementById("italianResponse").innerHTML = response;
