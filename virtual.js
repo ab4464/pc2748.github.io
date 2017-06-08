@@ -8,12 +8,12 @@ response = "Ciao, come stai?: Hello, how are you?";
 
 if (italianConversation == "ciao") {
 
-response = "Ciao, come stai?: Hello, how are you?";
+response = "Ciao, come stai?";
 }
 
 if (italianConversation == "Bene") {
 
-response = "Ottimo!  Anch'io: Excellent, I am doing well too.";
+response = "Ottimo! Anch'io. Arrivederci.";
 }
 
 
