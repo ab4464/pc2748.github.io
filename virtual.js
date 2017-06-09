@@ -37,25 +37,4 @@ function incorrect() {
   document.getElementById("quizoneresponse").innerHTML="Incorrect";
 }
 
-//Quiz II
 
-function notright() {
-
-  document.getElementById("quiztworesponse").innerHTML="Not right";
-}
-
-function right() {
-
-  document.getElementById("quiztworesponse").innerHTML="Right";
-}
-
-//Quiz III
-function thatsit() {
-
-  document.getElementById("quizthreeresponse").innerHTML="That's it";
-}
-
-function thatsnotit() {
-
-  document.getElementById("quizthreeresponse").innerHTML="That's not it";
-}
