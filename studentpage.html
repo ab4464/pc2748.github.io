@@ -92,7 +92,8 @@ pizza.”  Do you know how to say, “they eat pizza” in Italian?
 <div class = "quiz">
 <h>Quiz for Lesson I</h>
 <br><br>
-<p> How do you say "goodbye" in Italian? </p>
+<p> How do you say both "goodbye" and "hello" in Italian? </p>
+<br><br>
 <button onclick = "correct()">Ciao</button>
 <button onclick = "incorrect()">Pronto</button>
 <button onclick = "incorrect()">Come Stai?</button>  
@@ -102,34 +103,37 @@ pizza.”  Do you know how to say, “they eat pizza” in Italian?
 
 <!--Add quiz 2-->
 <div class = "quiz">
+<div class ="container">
+<div class= "row">
+<div class ="col-xs-12">
+<div class = "quiz">
 <h>Quiz for Lesson II</h>
 <br><br>
-<form action = "/submit-answers">
-<lable><input type = "text" placeholder = "Your name"></lable>
+<p> How do you say both "we eat" in Italian? </p>
 <br><br>
-<p> How do you say "We eat" </p>
-<lable style = "padding: 10px"><input type = "radio" name = "ac1">Mangio</lable>
-<lable style = "padding: 10px"><input type = "radio" name = "ac2">Mangi</lable>
-<lable style = "padding: 10px"><input type = "radio" name = "ac3">Mangiamo</lable>
+<button onclick = "notright()">Mangio</button>
+<button onclick = "notright()">Mangi</button>
+<button onclick = "right()">Mangiamo?</button>  
 <br><br>
-<button type = "submit"> Submit</button>
-</form>
+<h2 id = "quizoneresponse"></h2>  
 </div>
 
 <!--Add quiz 3-->
 <div class = "quiz">
+<div class = "quiz">
+<div class ="container">
+<div class= "row">
+<div class ="col-xs-12">
+<div class = "quiz">
 <h>Quiz for Lesson III</h>
 <br><br>
-<form action = "/submit-answers">
-<lable><input type = "text" placeholder = "Your name"></lable>
+<p> How do you say both "I eat pizza" in Italian? </p>
 <br><br>
-<p> How do you say "We eat pizza." </p>
-<lable style = "padding: 10px"><input type = "radio" name = "ac1">Mangio pizza</lable>
-<lable style = "padding: 10px"><input type = "radio" name = "ac2">Mangia pizza</lable>
-<lable style = "padding: 10px"><input type = "radio" name = "ac3">Mangiamo pizza</lable>
+<button onclick = "thatsnotit()">Corro</button>
+<button onclick = "thatsnotit()">Bevo latte</button>
+<button onclick = "thatsit()">Mangio pizza</button>  
 <br><br>
-<button type = "submit"> Submit</button>
-</form>
+<h2 id = "quizoneresponse"></h2>  
 </div>
 
 <!--Add Virtual Teacher-->  
