@@ -53,6 +53,7 @@ img {
         border-radius: 10px;  
         padding: 10px; 
         font-size: 20px;
+        border-bottom: 15px;
 }
 
 .virtualBackground {
