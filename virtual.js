@@ -24,7 +24,7 @@ response = "Ottimo.  Anch'io. Arrivederci.";
 }
 
 document.getElementById("italianResponse").innerHTML = response;
-}
+};
 
 //Quiz Core
 function correct() {
@@ -35,4 +35,4 @@ function correct() {
 function incorrect() {
 
   document.getElementById("quizoneresponse").innerHTML="Incorrect"
-}
+};
