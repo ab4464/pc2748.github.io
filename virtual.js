@@ -52,10 +52,10 @@ function right() {
 //Quiz III
 function thatsit() {
 
-  document.getElementById("quiztworesponse").innerHTML="That's it";
+  document.getElementById("quizthreeresponse").innerHTML="That's it";
 }
 
 function thatsnotit() {
 
-  document.getElementById("quiztworesponse").innerHTML="That's not it";
+  document.getElementById("quizthreeresponse").innerHTML="That's not it";
 }
