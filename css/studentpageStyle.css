@@ -75,6 +75,7 @@ img {
 }
 
 .displayButton {
+        text-align: center;
         display: block;
         width: 100%;
         background-color: black;
