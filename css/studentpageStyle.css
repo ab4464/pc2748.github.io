@@ -52,17 +52,16 @@ img {
         opacity: .9;
         border-radius: 10px;  
         padding: 10px; 
-        font-size: 15px;
+        margin:15px;
         
 }
 
 .virtualBackground {
         background-color: black;
-        font-size: 17;
         color: purple;
         opacity: .9;
         border-radius: 10px;  
-        padding: 20px;
+        padding: 10px;
         margin-bottom: 15px;
 }
 
