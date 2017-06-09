@@ -37,4 +37,23 @@ function incorrect() {
   document.getElementById("quizoneresponse").innerHTML="Incorrect";
 }
 
+//Display Colors
+function colorDisplay() {
+
+document.querySelector("#rosso").style.color="red";
+
+}
+
+function colorDisplay2() {
+
+document.querySelector("#verde").style.color="green";
+
+}
+
+function colorDisplay3() {
+
+document.querySelector("#bianco").style.color="white";
+
+}
+
 
