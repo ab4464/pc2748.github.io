@@ -52,5 +52,6 @@ img {
         font-style: 30px;
         opacity: .8;
         border-radius: 10px;  
-        padding: 10px;   
+        padding: 10px; 
+        border-bottom: 15px;
 }
