@@ -56,4 +56,10 @@ document.querySelector("#bianco").style.color="white";
 
 }
 
+//Exit
+var name = prompt("What is your name?")
+function beforeYouGo() {
+document.write("Goodbye " + name + ". " + "The Condello School of Italian wants to thank you for using this free educational resource.  It is hoped that this website has helped you on your journey to becoming a fluent participant in the Italian language.  Please come back to visit us again.  We appreciate the time you have taken to study Italian with this Italian language school.");
+}
+
 
