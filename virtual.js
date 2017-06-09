@@ -1,10 +1,11 @@
 //Virtual Teacher AI
 function italianTeacher() {
-var italianConversation = document.getElementById("speakItalian").value; var response;
+  
+  var italianConversation = document.getElementById("speakItalian").value; var response; //This code stores user input in a variable.
 
-if (italianConversation == "Ciao") {
+  if (italianConversation == "Ciao") {  //This is an if statement.  It determines what the virtual Italian teacher says.
 
-response = "Ciao, come stai?";
+  response = "Ciao, come stai?";
 }
 
 if (italianConversation == "ciao") {
