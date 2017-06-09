@@ -35,7 +35,7 @@ function correct() {
 function incorrect() {
 
   document.getElementById("quizoneresponse").innerHTML="Incorrect";
-}
+} 
 
 //Display Colors
 function colorDisplay() {
