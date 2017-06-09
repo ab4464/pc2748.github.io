@@ -26,7 +26,7 @@ response = "Ottimo.  Anch'io. Arrivederci.";
 document.getElementById("italianResponse").innerHTML = response;
 }
 
-//Quiz Core
+//Quiz I
 function correct() {
 
   document.getElementById("quizoneresponse").innerHTML="Correct";
@@ -37,4 +37,25 @@ function incorrect() {
   document.getElementById("quizoneresponse").innerHTML="Incorrect";
 }
 
+//Quiz II
 
+function notright() {
+
+  document.getElementById("quiztworesponse").innerHTML="Not right";
+}
+
+function right() {
+
+  document.getElementById("quiztworesponse").innerHTML="Right";
+}
+
+//Quiz III
+function thatsit() {
+
+  document.getElementById("quiztworesponse").innerHTML="That's it";
+}
+
+function thatsnotit() {
+
+  document.getElementById("quiztworesponse").innerHTML="That's not it";
+}
