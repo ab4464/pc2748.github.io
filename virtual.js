@@ -49,6 +49,17 @@ function colorDisplay3() { //This function turns an element white.
   document.querySelector("#bianco").style.color="white"; //This code targets the element that will be changed white.
 }
 
+//Image Match JS Code
+
+//This function notifies the user that the correct picture has been selected.
+function rightImage() {
+     document.getElementById("answer").innerHTML = "Nice work.";
+}
+//This function notifies the user that the incorrect picture has been selected.
+function wrongImage() {
+     document.getElementById("answer").innerHTML = "Nice try.";
+}
+
 //Exit
 
 var name = prompt("What is your name?") //This code collects a user's name.
@@ -56,5 +67,7 @@ var name = prompt("What is your name?") //This code collects a user's name.
 function beforeYouGo() { //This code thanks the user by name for using the website.
   document.write("Goodbye " + name + ". " + "The Condello School of Italian wants to thank you for using this free educational resource.  It is hoped that this website has helped you on your journey to becoming a fluent participant in the Italian language.  Please come back to visit us again.  We appreciate the time you have taken to study Italian with this Italian language school.");
 }
+
+
 
 
