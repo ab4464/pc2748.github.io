@@ -140,6 +140,50 @@ marks. </p>
 <div class =" displayButton">
 <button class ="btn-info" onclick = "beforeYouGo()">Before You Go</button>
 </div> 
+  
+<!--Image Match App-->
+
+<!--Add app background-->
+<div class = "matchBackground">
+
+<!--Implement Bootstrap-->
+<h2 class= "matchAppHead" >  Image Match  </h2>
+<h3 class ="matchApp"> Which image corresponds to the word "Mangia"?  </h3>
+
+<div class = "container">
+<div class = "row">
+
+<!--Image Option I-->
+<div class ="col-xs-3">
+<img src = "https://c1.staticflickr.com/5/4074/4894709118_d04583a76a_b.jpg" width = "100" height = "100" onclick ="rightImage()" class = "imageShave">
+</div>
+
+<!--Image Option II-->
+<div class ="col-xs-3">
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8nucgeQ3sptm8v2R2XrAvJeRznwWcS06y8Vkl75nxJdYUMI-sYg" width = "100" height = "100" onclick ="wrongImage()" class = "imageShave">
+</div>
+
+<!--Image Option III-->
+<div class ="col-xs-3">
+<img src = "https://upload.wikimedia.org/wikipedia/en/f/fb/Vespa_sprint_150.jpg" width = "100" height = "100" onclick ="wrongImage()" class = "imageShave">
+</div>
+
+<!--Image Option IV-->
+<div class ="col-xs-3">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/6/6a/Alberobello_trulli.JPG" width = "100" height = "100" onclick ="wrongImage()" class = "imageShave">
+</div>
+
+
+
+</div> <!--div for row-->
+</div><!--div for container-->
+
+<!--Display answer-->
+<h2 class ="matchApp" id = "answer" ></h2>
+
+</div><!--div for background-->
+
+<!--End of Image Match app-->  
 
   
 <!--Add footer.-->
