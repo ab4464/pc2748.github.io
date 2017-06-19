@@ -107,14 +107,4 @@ function italianTeacher2() { //This function operates the Listening Practice app
     document.getElementById("italianResponse").innerHTML = response; //This code sends the app response to the HTML.
   }
 
-var answerAnalyzer = [
-   {answerType1: ["You listen well.",
-                  "Your answer is similar to the correct one." 
-  ]
-},
-   {answerType2: [ "This is not correct.",
-                   "This is English."
-  ]                  
-}
-];
 
