@@ -104,7 +104,7 @@ function italianTeacher2() { //This function operates the Listening Practice app
     response = answerAnalyzer[1].answerType2[1];  //This response is for an answer in English.
   }
   
-    document.getElementById("italianResponse").innerHTML = response; //This code sends the app response to the HTML.
+    document.getElementById("italianResponse2").innerHTML = response; //This code sends the app response to the HTML.
   }
 
 
