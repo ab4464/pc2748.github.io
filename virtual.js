@@ -86,21 +86,21 @@ function sentenceCreation (foodChoice) {
 //Listening Practice App
 
 function italianTeacher2() { //This function operates the Listening Practice app.
-  var italianConversation = document.getElementById("speakItalian2").value; var response; //This code stores user input in a variable.
+  var italianConversation2 = document.getElementById("speakItalian2").value; var response; //This code stores user input in a variable.
 
-  if (italianConversation == "Come va?") {  //This is an if statement.  It determines the response that displays.
+  if (italianConversation2 == "Come va?") {  //This is an if statement.  It determines the response that displays.
     response = answerAnalyzer[0].answerType1[0];
   }
 
-  if (italianConversation == "Come stai?") {  //The Listening Practice app can respond to words typed different ways.
+  if (italianConversation2 == "Come stai?") {  //The Listening Practice app can respond to words typed different ways.
     response = answerAnalyzer[0].answerType1[1];        
   }
   
-  if (italianConversation == "Ciao") {  //The Listening Practice app recognizes this incorrect response.
+  if (italianConversation2 == "Ciao") {  //The Listening Practice app recognizes this incorrect response.
     response = answerAnalyzer[1].answerType2[0];
   }
 
-  if (italianConversation == "How's it going?") {  //The app recognizes English.
+  if (italianConversation2 == "How's it going?") {  //The app recognizes English.
     response = answerAnalyzer[1].answerType2[1];  //This response is for an answer in English.
   }
   
