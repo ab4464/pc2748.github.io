@@ -113,3 +113,14 @@ img {
         padding: 20px;
         border-radius: 10px;
 }
+
+.videoCenter2 {
+        display: block;
+        color: purple;
+        margin: 0 auto; 
+        padding: 20px; 
+        background-color: black;
+        opacity: .8;
+        padding: 20px;
+        border-radius: 10px;
+}
