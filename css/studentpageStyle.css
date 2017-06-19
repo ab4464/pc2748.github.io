@@ -85,3 +85,24 @@ img {
         padding: 10px;
         margin-bottom: 15px;
 }
+
+.matchApp {
+        padding: 20px;          
+        color:purple;
+        margin: 10px;
+}
+
+.matchAppHead {         
+        color:purple;
+}
+
+.imageShave {
+        border-radius: 10px;
+}
+
+.matchBackground {
+        background-color: black;
+        opacity: .8;
+        padding: 20px;
+        border-radius: 10px;
+}
