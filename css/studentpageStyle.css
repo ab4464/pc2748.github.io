@@ -124,3 +124,11 @@ img {
         padding: 20px;
         border-radius: 10px;
 }
+
+.fibonacciBackground {
+        background-color: black;
+        opacity: .9;
+        padding: 15px;
+        border-radius: 10px;
+        color: purple;
+}
