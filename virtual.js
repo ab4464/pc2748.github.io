@@ -115,6 +115,6 @@ function activate()  {//Activate number analyzer.
 
  //Analyze number value with a for loop.
  for (i = userInput; i < 3; i++) {
- document.getElementById("rightNumber").innerHTML = "You got it";
+ document.getElementById("rightNumber").innerHTML = "You got it.";
    }
 }
