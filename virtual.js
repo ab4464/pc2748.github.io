@@ -107,4 +107,14 @@ function italianTeacher2() { //This function operates the Listening Practice app
     document.getElementById("italianResponse2").innerHTML = response; //This code sends the app response to the HTML.
   }
 
+//JS code for Fibonacci's Code app
+function activate()  {//Activate number analyzer.
+ 
+ //Retrieve number.
+ var userInput = document.getElementById("receiver").value;
 
+ //Analyze number value with a for loop.
+ for (i = userInput; i < 3; i++) {
+ document.getElementById("rightNumber").innerHTML = "You got it";
+   }
+}
