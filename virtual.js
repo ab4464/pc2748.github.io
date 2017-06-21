@@ -70,7 +70,7 @@ function beforeYouGo() { //This code thanks the user by name for using the websi
 }
 
 
-//Sentence Match JS Code
+//Sentence Creator JS Code
 
 //Create a function that accepts a food type and adds it to an Italian sentence.
 function sentenceCreation (foodChoice) { 
@@ -115,7 +115,7 @@ function activate()  {//Activate number analyzer.
 
  //Analyze number value with a for loop.
  for (i = userInput; i < 3; i++) {
- document.getElementById("rightNumber").innerHTML = "You got it.";
+ document.getElementById("rightNumber").innerHTML = "You got it, " + name;
    }
 }
 
