@@ -1,142 +1,141 @@
-a:link{
-  text-decoration:none;
+a:link {
+  text-decoration: none;
 }
 
-a:hover{
-  color:purple;
+a:hover {
+  color: purple;
 }
 
 ul#menu li {
   display: inline;
-  background-color:lightgrey;
+  background-color: lightgrey;
   border-radius: 10px;
-  text-decoration:none;
-  color:black;  
+  text-decoration: none;
+  color: black;
   opacity: .7;
   padding: 15px;
-  
 }
 
-h1  { 
-    opacity: .7;
-    font-family: Garamond;
-    font-size: 65px;  
-    }
-    
+h1 {
+  opacity: .7;
+  font-family: Garamond;
+  font-size: 65px;
+}
+
 .intro {
-        background-color: black;
-        color: white;
-        opacity: .8;
-        border-radius: 10px;  
-        padding: 10px;
-        margin-bottom: 15px;
+  background-color: black;
+  color: white;
+  opacity: .8;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 img {
   border-radius: 10px;
-  padding: 20px;  
+  padding: 20px;
 }
 
 .main {
-        background-color: black;
-        color: white;
-        opacity: .8;
-        border-radius: 10px;  
-        padding: 10px;  
-        margin-bottom: 15px;     
+  background-color: black;
+  color: white;
+  opacity: .8;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 .quiz {
-        background-color: black;
-        color: purple;
-        opacity: .9;
-        border-radius: 10px;  
-        padding: 10px; 
-        margin:15px;
-        
+  background-color: black;
+  color: purple;
+  opacity: .9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
 }
 
 .virtualBackground {
-        background-color: black;
-        color: purple;
-        opacity: .9;
-        border-radius: 10px;  
-        padding: 10px;
-        margin-bottom: 15px;
+  background-color: black;
+  color: purple;
+  opacity: .9;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 .display {
-        background-color: black;
-        color: purple;
-        opacity: .9;
-        border-radius: 10px;  
-        padding: 10px;
-        margin-bottom: 15px;
+  background-color: black;
+  color: purple;
+  opacity: .9;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 .displayButton {
-        text-align: center;
-        display: block;
-        width: 100%;
-        background-color: black;
-        color: purple;
-        opacity: .9;
-        border-radius: 10px;  
-        padding: 10px;
-        margin-bottom: 15px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: purple;
+  opacity: .9;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 .matchApp {
-        padding: 20px;          
-        color:purple;
-        margin: 10px;
+  padding: 20px;
+  color: purple;
+  margin: 10px;
 }
 
-.matchAppHead {         
-        color:purple;
+.matchAppHead {
+  color: purple;
 }
 
 .imageShave {
-        border-radius: 10px;
+  border-radius: 10px;
 }
 
 .matchBackground {
-        background-color: black;
-        opacity: .8;
-        padding: 20px;
-        border-radius: 10px;
+  background-color: black;
+  opacity: .8;
+  padding: 20px;
+  border-radius: 10px;
 }
+
 .sentenceCBack {
-        color: purple;
-        background-color: black;
-        opacity: .8;
-        padding: 20px;
-        border-radius: 10px;
+  color: purple;
+  background-color: black;
+  opacity: .8;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .videoCenter2 {
-        display: block;
-        color: purple;
-        margin: 0 auto; 
-        padding: 20px; 
-        background-color: black;
-        opacity: .8;
-        padding: 20px;
-        border-radius: 10px;
+  display: block;
+  color: purple;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  opacity: .8;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .fibonacciBackground {
-        background-color: black;
-        opacity: .9;
-        padding: 15px;
-        border-radius: 10px;
-        color: purple;
+  background-color: black;
+  opacity: .9;
+  padding: 15px;
+  border-radius: 10px;
+  color: purple;
 }
 
 .translatorBackground {
-        background-color: black;
-        opacity: .9;
-        padding: 15px;
-        border-radius: 10px;
-        color: purple;
+  background-color: black;
+  opacity: .9;
+  padding: 15px;
+  border-radius: 10px;
+  color: purple;
 }
