@@ -119,15 +119,17 @@ function activate()  {//Activate number analyzer.
    }
 }
 
+//Display Translations
 
-//Translator JS Code
-
-//This function notifies the user that the correct picture has been selected.
-function rightImage() {
-  document.getElementById("answer").innerHTML = "Goodbye";
+function sentenceDisplay() { //This function displays the first translation.
+  document.querySelector("#latte").innerHTML = "I am drinking milk"; //This code targets the element that will be changed red.
 }
 
-//This function notifies the user that the incorrect picture has been selected.
-function wrongImage() {
-  document.getElementById("answer").innerHTML = "Nice try.";
+function sentenceDisplay2() { //This function displays the second translation.
+  document.querySelector("#pizza").innerHTML="I want a pizza."; //This code targets the element that will be changed green.
 }
+
+function sentenceDisplay3() { //This function displays the third translation.
+  document.querySelector("#gelato").innerHTML = " I like ice cream."; //This code targets the element that will be changed white.
+}
+
