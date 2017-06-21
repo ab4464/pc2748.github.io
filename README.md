@@ -1,6 +1,6 @@
 # Simple Lesson Website
 
-This website is an instructional website that teaches people how to speak the Italian language.  It provides a number of applications that are designed to help students learn Italian in a fun and creative way.  The applications use visuals, audio, and text-based instruction to help students gain a beginner's understanding of the Italian language.
+This website is an instructional tool that teaches people how to speak the Italian language.  It provides a number of applications that are designed to help students learn Italian in a fun and creative way.  The applications use visuals, audio, and text-based instruction to help students gain a beginner's understanding of the Italian language.
 
 Apps
 
