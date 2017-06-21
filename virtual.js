@@ -118,3 +118,16 @@ function activate()  {//Activate number analyzer.
  document.getElementById("rightNumber").innerHTML = "You got it.";
    }
 }
+
+
+//Translator JS Code
+
+//This function notifies the user that the correct picture has been selected.
+function rightImage() {
+  document.getElementById("answer").innerHTML = "Goodbye";
+}
+
+//This function notifies the user that the incorrect picture has been selected.
+function wrongImage() {
+  document.getElementById("answer").innerHTML = "Nice try.";
+}
