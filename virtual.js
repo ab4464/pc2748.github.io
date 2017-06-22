@@ -13,7 +13,7 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
   }
 
   if (italianConversation == "Bene") { //The AI recognizes the Italian word for "well."
-    response = "Ottimo! Anch'io. Arrivederci.";
+    response = arrayResponse[2];
   }
 
 
