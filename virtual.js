@@ -105,7 +105,7 @@ function italianTeacher2() { //This function operates the Listening Practice app
     response = answerAnalyzer[1].answerType2[1]; //This response is for an answer in English.
   }
   
-  else { response = "Your answer is not correct."; //This response covers all inputs that are not recognized.
+  else { response = answerAnalyzer[1].answerType2[2]; //This response covers all inputs that are not recognized.
 }
 
   document.getElementById("italianResponse2").innerHTML = response; //This code sends the app response to the HTML.
