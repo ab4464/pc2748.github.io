@@ -18,7 +18,7 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
 
 
   if (italianConversation == "bene") {
-    response = "Ottimo.  Anch'io. Arrivederci."; //This response is given when the AI recognizes the Italian word for "well."
+    response = arrayResponse[3]; //This response is given when the AI recognizes the Italian word for "well."
   }
 
   document.getElementById("italianResponse").innerHTML = response; //This code sends the AI response to the HTML.
