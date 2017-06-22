@@ -5,7 +5,7 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
   var response; //This code stores user input in a variable.
 
   if (italianConversation == "Ciao") { //This is an if statement.  It determines what the virtual Italian teacher says.
-    response = "Ciao, come stai?";
+    response = arrayResponse[0];
   }
 
   if (italianConversation == "ciao") { //The virtual Italian teacher can respond to words typed different ways.
