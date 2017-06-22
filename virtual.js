@@ -9,7 +9,7 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
   }
 
   if (italianConversation == "ciao") { //The virtual Italian teacher can respond to words typed different ways.
-    response = "Ciao, come stai?";
+    response = arrayResponse[1];
   }
 
   if (italianConversation == "Bene") { //The AI recognizes the Italian word for "well."
