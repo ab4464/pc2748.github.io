@@ -52,6 +52,7 @@ img {
   border-radius: 10px;
   padding: 10px;
   margin: 15px;
+  margin-bottom: 15px;
 }
 
 .virtualBackground {
@@ -88,6 +89,7 @@ img {
   padding: 20px;
   color: purple;
   margin: 10px;
+  margin-bottom: 15px;
 }
 
 .matchAppHead {
@@ -102,7 +104,9 @@ img {
   background-color: black;
   opacity: .8;
   padding: 20px;
+  margin-bottom: 15px;
   border-radius: 10px;
+  
 }
 
 .sentenceCBack {
@@ -110,6 +114,7 @@ img {
   background-color: black;
   opacity: .8;
   padding: 20px;
+  margin-bottom: 15px;
   border-radius: 10px;
 }
 
@@ -121,6 +126,7 @@ img {
   background-color: black;
   opacity: .8;
   padding: 20px;
+  margin-bottom: 15px;
   border-radius: 10px;
 }
 
@@ -129,6 +135,7 @@ img {
   opacity: .9;
   padding: 15px;
   border-radius: 10px;
+  margin-bottom: 15px;
   color: purple;
 }
 
@@ -138,4 +145,5 @@ img {
   padding: 15px;
   border-radius: 10px;
   color: purple;
+  margin-bottom: 15px;
 }
