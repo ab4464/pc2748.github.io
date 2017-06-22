@@ -1,6 +1,6 @@
 //Responses for Virtual Instructor
 
-var arrayResponse = ["Ciao, come stai?", "Ciao, come stai?"];
+var arrayResponse = ["Ciao, come stai?", "Ciao, come stai?", "Ottimo! Anch'io. Arrivederci."];
 
 //Responses for the Listening Practice app.
 
