@@ -104,6 +104,9 @@ function italianTeacher2() { //This function operates the Listening Practice app
   if (italianConversation2 == "How's it going?") { //The app recognizes English.
     response = answerAnalyzer[1].answerType2[1]; //This response is for an answer in English.
   }
+  
+  else { response = "Your answer is not correct."; //This response covers all inputs that are not recognized.
+}
 
   document.getElementById("italianResponse2").innerHTML = response; //This code sends the app response to the HTML.
 }
