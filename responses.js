@@ -10,7 +10,8 @@ var answerAnalyzer = [
   ]
 },
    {answerType2: [ "This is not correct.",
-                   "This is English."
+                   "This is English.",
+                   "This answer is not correct."
   ]                  
 }
 ];
