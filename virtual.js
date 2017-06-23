@@ -58,7 +58,6 @@ function rightImage() { //This function notifies the user that the correct pictu
   document.getElementById("answer").innerHTML = "Nice work.";
 }
 
-
 function wrongImage() { //This function notifies the user that the incorrect picture has been selected.
   document.getElementById("answer").innerHTML = "Nice try.";
 }
@@ -79,7 +78,6 @@ function sentenceCreation(foodChoice) { //Create a function that accepts a food 
 
   var foodChoice = document.getElementById("foodInput").value; //This variable accepts a food type.
 
-  
   document.getElementById("answerConnect").innerHTML = "La " + foodChoice + " è deliziosa."; //This code creates a sentence in Italian with the user input.
 }
 
@@ -96,7 +94,6 @@ function italianTeacher2() { //This function operates the Listening Practice app
   
    else { response = answerAnalyzer[1].answerType2[2]; //This else statement covers inputs unknown to the program.
   }
-
 
   if (italianConversation2 == "Come stai?") { //The Listening Practice app can respond to words typed different ways.
     response = answerAnalyzer[0].answerType1[1];
