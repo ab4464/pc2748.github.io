@@ -1,4 +1,5 @@
 //Virtual Teacher AI
+
 function italianTeacher() { //This function creates the AI for the virtual Italian teacher.
 
   var italianConversation = document.getElementById("speakItalian").value;
@@ -51,13 +52,12 @@ function colorDisplay3() { //This function turns an element white.
 
 //Image Match JS Code
 
-//This function notifies the user that the correct picture has been selected.
-function rightImage() {
+function rightImage() { //This function notifies the user that the correct picture has been selected.
   document.getElementById("answer").innerHTML = "Nice work.";
 }
 
-//This function notifies the user that the incorrect picture has been selected.
-function wrongImage() {
+
+function wrongImage() { //This function notifies the user that the incorrect picture has been selected.
   document.getElementById("answer").innerHTML = "Nice try.";
 }
 
@@ -72,14 +72,12 @@ function beforeYouGo() { //This code thanks the user by name for using the websi
 
 //Sentence Creator JS Code
 
-//Create a function that accepts a food type and adds it to an Italian sentence.
-function sentenceCreation(foodChoice) {
+function sentenceCreation(foodChoice) { //Create a function that accepts a food type and adds it to an Italian sentence.
 
-  //This variable accepts a food type.
-  var foodChoice = document.getElementById("foodInput").value;
+  var foodChoice = document.getElementById("foodInput").value; //This variable accepts a food type.
 
-  //This code creates a sentence in Italian with the user input.
-  document.getElementById("answerConnect").innerHTML = "La " + foodChoice + " è deliziosa.";
+  
+  document.getElementById("answerConnect").innerHTML = "La " + foodChoice + " è deliziosa."; //This code creates a sentence in Italian with the user input.
 }
 
 
@@ -116,11 +114,11 @@ function italianTeacher2() { //This function operates the Listening Practice app
 //JS code for Fibonacci's Code app
 function activate() { //Activate number analyzer.
 
-  //Retrieve number.
-  var userInput = document.getElementById("receiver").value;
+  
+  var userInput = document.getElementById("receiver").value; //Retrieve number.
 
-  //Analyze number value with a for loop.
-  for (i = userInput; i < 3; i++) {
+
+  for (i = userInput; i < 3; i++) { //Analyze number value with a for loop.
     document.getElementById("rightNumber").innerHTML = "You got it, " + name + ".";
   }
 }
