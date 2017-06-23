@@ -92,6 +92,10 @@ function italianTeacher2() { //This function operates the Listening Practice app
   if (italianConversation2 == "Come va?") { //This is an if statement.  It determines the response that displays.
     response = answerAnalyzer[0].answerType1[0];
   }
+  
+   else { response = answerAnalyzer[1].answerType2[2]; //This else statement covers inputs unknown to the program.
+  }
+
 
   if (italianConversation2 == "Come stai?") { //The Listening Practice app can respond to words typed different ways.
     response = answerAnalyzer[0].answerType1[1];
@@ -105,9 +109,7 @@ function italianTeacher2() { //This function operates the Listening Practice app
     response = answerAnalyzer[1].answerType2[1]; //This response is for an answer in English.
   }
   
-  else { response = answerAnalyzer[1].answerType2[2]; //This response covers all inputs that are not recognized.
-}
-
+ 
   document.getElementById("italianResponse2").innerHTML = response; //This code sends the app response to the HTML.
 }
 
