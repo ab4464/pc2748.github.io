@@ -17,7 +17,6 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
     response = arrayResponse[2];
   }
 
-
   if (italianConversation == "bene") {
     response = arrayResponse[3]; //This response is given when the AI recognizes the Italian word for "well."
   }
