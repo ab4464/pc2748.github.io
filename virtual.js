@@ -32,10 +32,10 @@ function correct() { //This function outputs a response to a correct answer.
   document.getElementById("quizoneresponse").innerHTML = "Correct"; //This code displays the word "correct" in a specific element of the website.
 }
 
-
 function incorrect() { //This function outputs a response to an incorrect answer.
   document.getElementById("quizoneresponse").innerHTML = "Incorrect"; //This code displays the word "incorrect" in a specific element of the website.
 }
+
 
 //Display Colors
 
