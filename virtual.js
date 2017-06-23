@@ -25,6 +25,7 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
   document.getElementById("italianResponse").innerHTML = response; //This code sends the AI response to the HTML.
 }
 
+
 //Quiz 
 
 function correct() { //This function outputs a response to a correct answer.
@@ -50,6 +51,7 @@ function colorDisplay3() { //This function turns an element white.
   document.querySelector("#bianco").style.color = "white"; //This code targets the element that will be changed white.
 }
 
+
 //Image Match JS Code
 
 function rightImage() { //This function notifies the user that the correct picture has been selected.
@@ -60,6 +62,7 @@ function rightImage() { //This function notifies the user that the correct pictu
 function wrongImage() { //This function notifies the user that the incorrect picture has been selected.
   document.getElementById("answer").innerHTML = "Nice try.";
 }
+
 
 //Exit
 
@@ -107,21 +110,20 @@ function italianTeacher2() { //This function operates the Listening Practice app
     response = answerAnalyzer[1].answerType2[1]; //This response is for an answer in English.
   }
   
- 
   document.getElementById("italianResponse2").innerHTML = response; //This code sends the app response to the HTML.
 }
+
 
 //JS code for Fibonacci's Code app
 function activate() { //Activate number analyzer.
 
-  
   var userInput = document.getElementById("receiver").value; //Retrieve number.
-
 
   for (i = userInput; i < 3; i++) { //Analyze number value with a for loop.
     document.getElementById("rightNumber").innerHTML = "You got it, " + name + ".";
   }
 }
+
 
 //Display Translations
 
