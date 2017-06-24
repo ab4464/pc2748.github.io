@@ -5,9 +5,6 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
   var italianConversation = document.getElementById("speakItalian").value;
   var response; //This code stores user input in a variable.
 
-   else { response = arrayResponse[4]; //This else statement covers unknown inputs.  It does not need to be below all of the if statements.
-  }
-  
   if (italianConversation == "Ciao") { //This is an if statement.  It determines what the virtual Italian teacher says.
     response = arrayResponse[0];
   }
