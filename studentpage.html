@@ -228,7 +228,7 @@
 
             <!--Add an input box-->
             <input type="text" id="speakItalian2">
-            <button class="btn-info" onclick="italianTeacher2()">Speak</button>
+            <button class="btn-info" onclick="italianTeacher2(), play()">Speak</button>
             <br>
             <br>
 
@@ -259,7 +259,7 @@
 
             <!--Add input receiver-->
             <input type="text" id="receiver">
-            <button class="btn-info" onclick="activate()">Try</button>
+            <button class="btn-info" onclick="activate(), play()">Try</button>
             <br>
             <!--Display output-->
             <h3 id="rightNumber">This sentence will change if your are correct.</h3>
@@ -287,21 +287,21 @@
 
             <!--First Italian sentence-->
             <h3 id="latte"> Bevo latte. </h3>
-            <button onclick="sentenceDisplay()"> Translate </button>
+            <button onclick="sentenceDisplay(), play()"> Translate </button>
 
             <br>
             <br>
 
             <!--Second Italian sentence-->
             <h3 id="pizza"> Voglio una pizza. </h3>
-            <button onclick="sentenceDisplay2()"> Translate </button>
+            <button onclick="sentenceDisplay2(), play()"> Translate </button>
 
             <br>
             <br>
 
             <!--Third Italian sentence-->
             <h3 id="gelato"> Mi piace il gelato. </h3>
-            <button onclick="sentenceDisplay3()"> Translate </button>
+            <button onclick="sentenceDisplay3(), play()"> Translate </button>
           </div>
 
           <!--End of Translator app-->
