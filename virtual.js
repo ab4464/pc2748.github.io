@@ -12,6 +12,9 @@ function italianTeacher() { //This function creates the AI for the virtual Itali
   if (italianConversation == "ciao") { //The virtual Italian teacher can respond to words typed different ways.
     response = arrayResponse[1];
   }
+  
+  else { response = arrayResponse[4]; //This else statement covers unknown inputs.  It does not need to be below all of the if statements.
+  }
 
   if (italianConversation == "Bene") { //The AI recognizes the Italian word for "well."
     response = arrayResponse[2];
