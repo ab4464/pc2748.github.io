@@ -138,6 +138,6 @@ function sentenceDisplay3() { //This function displays the third translation.
 //Sound
 
 function play(){
-  var buttonSound = new Audio("http://www.soundjay.com/button/sounds/button-29.mp3").play
+  var buttonSound = new Audio("http://www.soundjay.com/button/sounds/button-29.mp3").play();
   buttonSound.play();         
 }
