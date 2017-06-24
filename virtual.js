@@ -135,7 +135,7 @@ function sentenceDisplay3() { //This function displays the third translation.
   document.querySelector("#gelato").innerHTML = " I like ice cream."; //This code targets the element that will be changed white.
 }
 
-//Sound
+//Sound for Buttons
 
 function play(){
   var buttonSound = new Audio("http://www.soundjay.com/button/sounds/button-29.mp3").play();
