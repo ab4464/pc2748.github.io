@@ -134,3 +134,10 @@ function sentenceDisplay2() { //This function displays the second translation.
 function sentenceDisplay3() { //This function displays the third translation.
   document.querySelector("#gelato").innerHTML = " I like ice cream."; //This code targets the element that will be changed white.
 }
+
+//Sound
+
+function play(){
+  var buttonSound = new Audio("http://www.soundjay.com/button/sounds/button-29.mp3").play
+  buttonSound.play();         
+}
