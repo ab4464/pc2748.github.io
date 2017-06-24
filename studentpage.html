@@ -92,7 +92,7 @@
             <br>
             <br>
             <input type="text" id="speakItalian">
-            <button class="btn-info" onclick="italianTeacher()">Speak</button>
+            <button class="btn-info" onclick="italianTeacher(), play()">Speak</button>
             <br>
             <br>
             <h3 class="responseSpace" id="italianResponse"></h3>
@@ -108,9 +108,9 @@
             <br>
             <h3> How do you say both "goodbye" and "hello" in Italian? </h3>
             <br>
-            <button onclick="correct()">Ciao</button>
-            <button onclick="incorrect()">Pronto</button>
-            <button onclick="incorrect()">Come stai?</button>
+            <button onclick="correct(), play()">Ciao</button>
+            <button onclick="incorrect(), play()">Pronto</button>
+            <button onclick="incorrect(), play()">Come stai?</button>
             <h2 id="quizoneresponse"></h2>
           </div>
 
@@ -124,19 +124,19 @@
             <br>
 
             <h3 id="rosso"> Rosso</h3>
-            <button onclick="colorDisplay()"> Discover </button>
+            <button onclick="colorDisplay(), play()"> Discover </button>
 
             <br>
             <br>
 
             <h3 id="verde"> Verde</h3>
-            <button onclick="colorDisplay2()"> Discover </button>
+            <button onclick="colorDisplay2(), play()"> Discover </button>
 
             <br>
             <br>
 
             <h3 id="bianco"> Bianco</h3>
-            <button onclick="colorDisplay3()"> Discover </button>
+            <button onclick="colorDisplay3(), play()"> Discover </button>
           </div>
 
           <!--Image Match App-->
@@ -153,22 +153,22 @@
 
                 <!--Image Option I-->
                 <div class="col-md-3">
-                  <img src="https://c1.staticflickr.com/5/4074/4894709118_d04583a76a_b.jpg" onclick="rightImage()" class="imageShave" width="200" height="200">
+                  <img src="https://c1.staticflickr.com/5/4074/4894709118_d04583a76a_b.jpg" onclick="rightImage()" class="imageShave" width="200" height="200" onclick = "play()">
                 </div>
 
                 <!--Image Option II-->
                 <div class="col-md-3">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8nucgeQ3sptm8v2R2XrAvJeRznwWcS06y8Vkl75nxJdYUMI-sYg" onclick="wrongImage()" class="imageShave" width="200" height="200">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8nucgeQ3sptm8v2R2XrAvJeRznwWcS06y8Vkl75nxJdYUMI-sYg" onclick="wrongImage()" class="imageShave" width="200" height="200" onclick = "play()">
                 </div>
 
                 <!--Image Option III-->
                 <div class="col-md-3">
-                  <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Vespa_sprint_150.jpg" onclick="wrongImage()" class="imageShave" width="200" height="200">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Vespa_sprint_150.jpg" onclick="wrongImage()" class="imageShave" width="200" height="200" onclick = "play()">
                 </div>
 
                 <!--Image Option IV-->
                 <div class="col-md-3">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Alberobello_trulli.JPG" onclick="wrongImage()" class="imageShave" width="200" height="200">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Alberobello_trulli.JPG" onclick="wrongImage()" class="imageShave" width="200" height="200" onclick = "play()">
                 </div>
 
               </div>
@@ -201,7 +201,7 @@
             <!--Create element to accept input-->
             <input type="text" id="foodInput"></input>
 
-            <button onclick="sentenceCreation()">Try</button>
+            <button onclick="sentenceCreation(), play()">Try</button>
 
             <br>
 
